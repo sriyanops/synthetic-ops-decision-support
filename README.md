@@ -22,7 +22,7 @@ This project demonstrates how raw operational data can be converted into a repea
 ---
 
 ## Output
-- **PDF report:** `reports/FedEx_Project_Ops_Report.pdf`
+- **PDF report:** [FedEx_Project_Ops_Report.pdf](reports/FedEx_Project_Ops_Report.pdf)
 - **Screenshots:** `docs/screenshots/`
 
 ---
