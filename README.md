@@ -22,13 +22,13 @@ This project demonstrates how raw operational data can be converted into a repea
 ---
 
 ## Output
-- **PDF report:** [FedEx_Project_Ops_Report.pdf](reports/fedex_product_ops_report.pdf)
+- **PDF report:** [FedEx_Project_Ops_Report.pdf](reports/Fedex_Product_Ops_Report.pdf)
 - **Screenshots:**
 ### Executive Summary
 ![Executive Summary](docs/screenshots/executive_summary.png)
 
 ### KPI Table
-![KPI Table](docs/screenshots/kpi_table.png)
+![KPI Table](docs/screenshots/kpi.png)
 
 ### Trend Chart
 ![Trend Chart](docs/screenshots/trend_chart.png)
