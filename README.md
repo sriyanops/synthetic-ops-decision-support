@@ -46,22 +46,26 @@ This project demonstrates how raw operational data can be converted into a repea
 
 ---
 
-## Project structure
+## Project Structure
+
+```
 fedex-project-ops-decision-support/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
 ├── reports/
-│ └── FedEx_Project_Ops_Report_v1.pdf
+│   └── FedEx_Project_Ops_Report.pdf
 ├── src/
-│ ├── export_pdf.py
-│ ├── metrics.py
-│ └── insights.py
+│   ├── export_pdf.py   # report orchestration
+│   ├── metrics.py      # KPI computation
+│   ├── rules.py        # deterministic decision logic
+│   └── insights.py     # optional narrative inputs
 ├── data/
-│ └── sample/
-│ └── shipments_sample.csv
+│   └── sample/
+│       └── shipments_sample.csv
 └── docs/
-└── screenshots/
+    └── screenshots/
+```
 
 
 ---
