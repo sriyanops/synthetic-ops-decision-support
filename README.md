@@ -42,6 +42,7 @@ This project demonstrates how raw operational data can be converted into a repea
 - pandas
 - matplotlib
 - ReportLab
+- Dependencies: [requirements.txt](requirements.txt)
 
 ---
 
@@ -67,6 +68,7 @@ fedex-project-ops-decision-support/
 
 ## How to run
 This repository does not include real operational data. Use the provided sample dataset or supply your own CSV using the same schema.
+
 
 ### Environment setup
 ```bash
