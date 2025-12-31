@@ -76,7 +76,22 @@ By default, the tool runs on a **synthetic sample dataset** included at
 
 You may substitute your own CSV if it follows the same schema.
 
+### Input CSV Requirements
 
+To generate a report using your own data, provide a CSV file with the following columns:
+
+| Column Name          | Description |
+|----------------------|-------------|
+| `date`               | Date of operations (YYYY-MM-DD) |
+| `scenario`           | Operating scenario (e.g. NORMAL, PEAK, DISRUPTION, LABOR_SHORTAGE) |
+| `package_volume`     | Total packages processed that day |
+| `network_capacity`   | Maximum network capacity for the day |
+| `on_time_rate`       | On-time delivery rate (0–1) |
+| `exceptions`         | Number of delivery exceptions |
+| `labor_hours`        | Total labor hours worked |
+| `cost_per_package`   | Average cost per package |
+
+Additional columns may be present but are ignored. You may use the provided [sample dataset](data/sample/shipments_sample.csv) as a template.
 
 ### Environment setup
 ```bash
