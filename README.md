@@ -71,7 +71,11 @@ fedex-project-ops-decision-support/
 ---
 
 ## How to run
-This repository does not include real operational data. Use the provided sample dataset or supply your own CSV using the same schema.
+By default, the tool runs on a **synthetic sample dataset** included at  
+[`data/sample/shipments_sample.csv`](data/sample/shipments_sample.csv). 
+
+You may substitute your own CSV if it follows the same schema.
+
 
 
 ### Environment setup
