@@ -4,22 +4,24 @@ A Python-based operations decision-support and reporting tool modeled after an i
 
 > **DISCLAIMER:** “FedEx” is used strictly as a placeholder name. All data in this repository is 100% synthetic.
 
----
+
 
 ## What this tool does
+
+
 - Ingests shipment-level operational data (CSV)
 - Computes core operational KPIs (service level, delays, exceptions, throughput)
 - Generates clean charts for trend and performance analysis
 - Produces a multi-page, stakeholder-ready PDF report
 - Packages insights, assumptions, and roadmap into a single deliverable
 
----
 
-## Why this exists
-Internal operations teams often rely on standardized reporting artifacts rather than live dashboards alone.  
-This project demonstrates how raw operational data can be converted into a repeatable, leadership-ready decision-support report.
+### Problem This Tool Solves
 
----
+Large-scale logistics operations generate extensive daily performance data, but that data is often reviewed in fragmented reports that make prioritization difficult. Decision-makers may see metrics but lack a structured way to interpret operational risk, compare sites, and identify where intervention is most urgent. This tool consolidates operational KPIs into a ranked, decision-oriented report that supports faster, more consistent operational oversight.
+
+
+
 
 ## Output
 - **PDF report:** [FedEx_Project_Ops_Report.pdf](reports/FedEx_Product_Ops_Report.pdf)
@@ -35,7 +37,7 @@ This project demonstrates how raw operational data can be converted into a repea
 
 
 
----
+
 
 ## Tech stack
 - Python
@@ -44,7 +46,7 @@ This project demonstrates how raw operational data can be converted into a repea
 - ReportLab
 - Dependencies: [requirements.txt](requirements.txt)
 
----
+
 
 ## Project Structure
 
@@ -68,7 +70,7 @@ fedex-project-ops-decision-support/
 ```
 
 
----
+
 
 ## How to run
 By default, the tool runs on a **synthetic sample dataset** included at  
