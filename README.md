@@ -1,8 +1,8 @@
-# FedEx Project Ops Decision Support (v1)
+# UPS Project Ops Decision Support (v1)
 
-A Python-based operations decision-support and reporting tool modeled after an internal enterprise analytics system. The tool transforms synthesized shipment data into KPI tables, trend visualizations, and an executive-ready PDF report to support operational decision-making.
+A Python-based operations decision-support and reporting tool modeled after an internal enterprise analytics system built for an individual UPS Franchisee. The tool transforms synthesized shipment data into KPI tables, trend visualizations, and an executive-ready PDF report to support operational decision-making.
 
-> **DISCLAIMER:** “FedEx” is used strictly as a placeholder name. All data in this repository is 100% synthetic.
+> **DISCLAIMER:** All data in this repository is 100% synthetic.
 
 
 
